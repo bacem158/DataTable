@@ -29,8 +29,8 @@ export class AppComponent implements AfterViewInit {
                                 'Number of segment with help','Durée moyenne de segement','Projects'];
   // initializing the data
   dataSource = new MatTableDataSource(ELEMENT_DATA);
-  @ViewChild(MatPaginator, {static: false}) paginator: MatPaginator;
-  @ViewChild(MatSort) sort : MatSort;
+  @ViewChild(MatPaginator, {static: false}) paginator!: MatPaginator;
+  @ViewChild(MatSort) sort! : MatSort;
   ngAfterViewInit(){
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
