@@ -15,6 +15,11 @@ export interface dataTable{
 
 const ELEMENT_DATA: dataTable[] = [
   {Annotators : 'Fethi',ActualFile : 'File1.wav' ,TranscriptionTime : '1h 23 min 3 s' ,NumberOfSegmentWithHelp : 44 ,DureeMoyenneDeSegement : '3 min' ,Projects:'Projet 1 / Projet2 '  },
+  {Annotators : 'Fethi',ActualFile : 'File1.wav' ,TranscriptionTime : '1h 23 min 3 s' ,NumberOfSegmentWithHelp : 44 ,DureeMoyenneDeSegement : '3 min' ,Projects:'Projet 1 / Projet2 '  },
+  {Annotators : 'Fethi',ActualFile : 'File1.wav' ,TranscriptionTime : '1h 23 min 3 s' ,NumberOfSegmentWithHelp : 44 ,DureeMoyenneDeSegement : '3 min' ,Projects:'Projet 1 / Projet2 '  },
+  {Annotators : 'Fethi',ActualFile : 'File1.wav' ,TranscriptionTime : '1h 23 min 3 s' ,NumberOfSegmentWithHelp : 44 ,DureeMoyenneDeSegement : '3 min' ,Projects:'Projet 1 / Projet2 '  },
+
+  {Annotators : 'Fethi',ActualFile : 'File1.wav' ,TranscriptionTime : '1h 23 min 3 s' ,NumberOfSegmentWithHelp : 44 ,DureeMoyenneDeSegement : '3 min' ,Projects:'Projet 1 / Projet2 '  },
 ]
 
 @Component({
